@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Application Development\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:dtos\\insertuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\dtos\\getalluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:dtos\\getalluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|d:\\application development\\webapplication1\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2F5297-7CED-49AE-B375-2459C0A0B9B1}|WebApplication1.csproj|solutionrelative:dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllUser.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Dtos\\GetAllUser.cs",
+              "RelativeDocumentMoniker": "Dtos\\GetAllUser.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Dtos\\GetAllUser.cs",
+              "RelativeToolTip": "Dtos\\GetAllUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:04:06.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsertUserDto.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Dtos\\InsertUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\InsertUserDto.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Dtos\\InsertUserDto.cs",
+              "RelativeToolTip": "Dtos\\InsertUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:03:40.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:02:57.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:41:56.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Dtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UpdateUserDto.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Dtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "Dtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:39:51.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Application Development\\WebApplication1\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\Application Development\\WebApplication1\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:31:57.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
