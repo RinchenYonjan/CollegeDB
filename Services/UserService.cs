@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
+using System.Reflection;
 using WebApplication1.Data;
 using WebApplication1.Dtos;
 using WebApplication1.Entities;
@@ -56,41 +58,55 @@ namespace WebApplication1.Services
 
         }
 
-        public List<GetAllUser> GetAllUser()
+        public List<GetAllUser> GetAllUsers()
         {
             try
             {
                 var users = _context.Users.Where(u => u.IsActive).ToList();
 
-                if(users == null)
-                throw new Exception("No active users found");
+                if (users == null)
+                    throw new Exception("No active users found");
 
                 var result = new List<GetAllUser>();
 
-                foreach(var u in users)               
+                foreach (var u in users)
                 {
-                    result.Add( new GetAllUser
+                    result.Add(new GetAllUser
                     {
                         FirstName = u.FirstName,
                         LastName = u.LastName,
                         Gender = u.Gender,
-                         ImageURL = u.ImageURL,
+                        ImageURL = u.ImageURL,
                         RegisterDate = u.RegisterDate,
                     });
                 }
 
                 return result;
-                
+
             }
             catch (Exception ex)
             {
+                throw new Exception("Error updating user: " + ex.Message);
 
             }
         }
 
         public GetAllUser GetById(Guid id)
         {
-            throw new NotImplementedException();
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
+
+            if(user == null)
+                throw new NotImplementedException();
+
+            var result = new GetAllUser();
+            {
+                FirstName = userDto.FirstName,
+                    LastName = userDto.LastName,
+                    Gender = userDto.Gender,
+                    ImageURL = userDto.ImageURL,
+                    RegisterDate = userDto.RegisterDate,
+            }
+
         }
 
         public void UpdateUser(Guid id, UpdateUserDto userDto)
